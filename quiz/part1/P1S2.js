@@ -35,9 +35,13 @@ function dataHandling(input) {
     let date = input[3].split('/');
     let date_f = [date[2], date[0], date[1]];
 
+
+
     console.log(input);
     console.log(namaBulan[Bulan[1] - 1]);
     console.log(date_f);
+    console.log(input[3].split('/').join("-"));
+    console.log(input[1].slice(0,15));
 }
 
 dataHandling(input);
